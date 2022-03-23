@@ -1,6 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    background: lightgray;
 }
 
 ul {
@@ -8,31 +9,89 @@ ul {
 }
 
 img {
-    width: 100px;
-    height: 250px;
+    width: 110px;
+    height: 300px;
     object-fit: cover;
+}
+
+p {
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 40px;
+    max-width: 1200px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px 4px grey
+}
+
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    flex-wrap: wrap;
+}
+
+.container-header img {
+    width: 130px;
+}
+
+.container-header h1 {
+    width: 100%;
 }
 
 .pratos {
     display: flex;
-    gap: 20px;
+    gap: 40px;
+    justify-content: center;
+    padding: 40px;
 }
 
+
+.pratos img {
+    padding: 10px;
+    width: 300px;
+    height: 500px;
+}
 .prato-principal {
-    border: 2px solid black;
-    background: grey;
-    margin-bottom: 10px;
+    padding: 5px;
+    max-width: 1200px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background: #F5F5F5;
+    box-shadow: 0px 5px 15px 4px grey
+
+}
+
+.container_cortes {
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px 4px grey
 }
 
 .acompanhamentos {
-    border: 2px solid black;
-    background: grey;
-    margin-bottom: 10px; 
+    padding: 5px;
+    max-width: 1200px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background: #F5F5F5;
+    box-shadow: 0px 5px 15px 4px grey
+}
+
+.preco {
+    /* personalizar corretamente */
+    color: green;
 }
 
 .dados {
-    border: 2px solid black;
-    background: grey;
-    margin-bottom: 10px;
 
+    padding: 5px;
+    max-width: 1200px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background: #F5F5F5;
+    box-shadow: 0px 5px 15px 4px grey
 }

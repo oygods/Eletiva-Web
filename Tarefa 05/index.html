@@ -8,61 +8,72 @@
     <title>Menu - Tarefa 05</title>
 </head>
 <body>
-    <header class="header">
-        <!-- <img src="/" alt="" srcset=""> -->
-        <h1>Menu - Faça A Sua Escolha</h1>
-    </header>
+    <div class="container">
+        <header class="container-header">
+            <img src="/cozindo-pernambucano.jpg" alt="" srcset="">
+            <img src="/cozindo-pernambucano.jpg" alt="" srcset="">
+            <img src="/cozindo-pernambucano.jpg" alt="" srcset="">
+            <img src="/cozindo-pernambucano.jpg" alt="" srcset="">
+            <img src="/cozindo-pernambucano.jpg" alt="" srcset="">
+            <img src="/cozindo-pernambucano.jpg" alt="" srcset="">
+            <img src="/cozindo-pernambucano.jpg" alt="" srcset="">
+            <img src="/cozindo-pernambucano.jpg" alt="" srcset="">
+            <img src="/cozindo-pernambucano.jpg" alt="" srcset="">
+            <h1>Menu - Faça A Sua Escolha</h1>
+        </header>
+        <main class="principal">
+            <section class="prato-principal">
+                <h2>Prato Principal</h2>
+                <p>Todos os pratos acompanham arroz, feijão e a sobremesa do dia.</p>
+                <div class="pratos">
+                    <div class="container_cortes">
+                        <img src="/cozindo-pernambucano.jpg" alt="" srcset="">
+                        <p class="preco">R$30,00</p>
+                    </div>
+                    <div class="container_cortes">
+                        <img src="/cozindo-pernambucano.jpg" alt="" srcset="">
+                        <p class="preco">R$25,00</p>
+                    </div>
+                    <div class="container_cortes">
+                        <img src="/cozindo-pernambucano.jpg" alt="" srcset="">
+                        <!-- add botoes + e - com A -->
+                        <p class="preco">R$22,00</p>
+                    </div>
+                </div>
+            </section>
 
-    <main>
-        <section class="prato-principal">
-            <h2>prato-principal</h2>
-            <p>Todos os pratos acompanham arroz, feijão e a sobremesa do dia.</p>
-            <div class="pratos">
-                <div class="bife_principal">
-                    <img src="/cozindo-pernambucano.jpg" alt="" srcset="">
-                    <p class="preco">R$30,00</p>
+            <section class="acompanhamentos">
+                <h2>Acompanhamentos</h2>
+                <p>Porções para uma pessoa</p>
+                <div class="pratos">
+                    <div class="container_cortes">
+                        <img src="/cozindo-pernambucano.jpg" alt="" srcset="">
+                        <p class="preco">R$10,00</p>
+                    </div>
+                    <div class="container_cortes">
+                        <img src="/cozindo-pernambucano.jpg" alt="" srcset="">
+                        <p class="preco">R$8,00</p>
+                    </div>
+                    <div class="container_cortes">
+                        <img src="/cozindo-pernambucano.jpg" alt="" srcset="">
+                        <p class="preco">R$12,00</p>
+                    </div>
                 </div>
-                <div class="frango_principal">
-                    <img src="/cozindo-pernambucano.jpg" alt="" srcset="">
-                    <p class="preco">R$25,00</p>
-                </div>
-                <div class="carne_principal">
-                    <img src="/cozindo-pernambucano.jpg" alt="" srcset="">
-                    <p class="preco">R$22,00</p>
-                </div>
-            </div>
-        </section>
+            </section>
 
-        <section class="acompanhamentos">
-            <h2>acompanhamentos</h2>
-            <p>Porções para uma pessoa</p>
-            <div class="pratos">
-                <div class="farofa_acompanhamentos">
-                    <img src="/cozindo-pernambucano.jpg" alt="" srcset="">
-                    <p class="preco">R$10,00</p>
+            <section class="dados">
+                <h2>Dados Pessoais</h2>
+                <div>
+                <ul>
+                    <!-- Criar as classes e personalizar -->
+                    <li><input type="text" name="nome" id="" required></li>
+                    <li><input type="text" name="telefone" id="" required></li>
+                    <li><input type="email" name="email" id="" required></li>
+                </ul>
                 </div>
-                <div class="salada_acompanhamentos">
-                    <img src="/cozindo-pernambucano.jpg" alt="" srcset="">
-                    <p class="preco">R$8,00</p>
-                </div>
-                <div class="torresmo_acompanhamentos">
-                    <img src="/cozindo-pernambucano.jpg" alt="" srcset="">
-                    <p class="preco">R$12,00</p>
-                </div>
-            </div>
-        </section>
-
-        <section class="dados">
-            <h2>Dados Pessoais</h2>
-            <div>
-             <ul>
-                 <li><input type="text" name="nome" id="" required></li>
-                 <li><input type="text" name="telefone" id="" required></li>
-                 <li><input type="email" name="email" id="" required></li>
-             </ul>
-            </div>
-            <input class="btn_submit" type="submit" value="Calcular">
-        </section>
-    </main>
+            </section>
+            <input class="botao" type="submit" value="Calcular">
+        </main>
+    </div>
 </body>
 </html>
