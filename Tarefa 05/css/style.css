@@ -18,6 +18,10 @@ p {
     font-weight: bold;
 }
 
+h2 {
+    margin: 0px;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -26,18 +30,18 @@ p {
     max-width: 1200px;
     background: #fff;
     border-radius: 10px;
-    box-shadow: 0px 5px 15px 4px grey
 }
 
 .container-header {
     display: flex;
+    margin: 2px;
     justify-content: space-between;
     max-width: 1200px;
     flex-wrap: wrap;
 }
 
 .container-header img {
-    width: 130px;
+    width: 8.25rem;
 }
 
 .container-header h1 {
@@ -48,28 +52,26 @@ p {
     display: flex;
     gap: 40px;
     justify-content: center;
-    padding: 40px;
+    padding: 10px 0px 30px;
 }
 
-
 .pratos img {
-    padding: 10px;
+    padding: 10px 10px 0px 10px;
     width: 300px;
     height: 500px;
 }
+
 .prato-principal {
     padding: 5px;
     max-width: 1200px;
     margin-bottom: 20px;
     border-radius: 10px;
     background: #F5F5F5;
-    box-shadow: 0px 5px 15px 4px grey
 
 }
 
 .container_cortes {
     border-radius: 10px;
-    box-shadow: 0px 5px 15px 4px grey
 }
 
 .acompanhamentos {
@@ -78,20 +80,45 @@ p {
     margin-bottom: 20px;
     border-radius: 10px;
     background: #F5F5F5;
+}
+
+.boxshadow {
     box-shadow: 0px 5px 15px 4px grey
+}
+
+.botao {
+    width: 100%;
+    display: inline-block;
+    padding: 15px;
+    background: #1E90FF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.titulo {
+    padding: 0px;
+    margin: 0px;
 }
 
 .preco {
     /* personalizar corretamente */
-    color: green;
+    color: #32CD32;
 }
 
 .dados {
-
-    padding: 5px;
-    max-width: 1200px;
-    margin-bottom: 10px;
     border-radius: 10px;
     background: #F5F5F5;
-    box-shadow: 0px 5px 15px 4px grey
 }
+
+.dados h2{
+    padding-top: 10px;
+}
+
+.dados_input {
+    border: none;
+    margin-bottom: 20px;
+    width: 1000px;
+    padding: 5px;
+}
+
