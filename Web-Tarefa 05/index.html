@@ -21,63 +21,81 @@
             <img src="/cafe header.jpeg" alt="" srcset="">
             <h1>Menu - Faça A Sua Escolha</h1>
         </header>
-        <main class="principal">
-            <section class="boxshadow prato-principal">
+        <main>
+            <section class="boxshadow alinhamento">
                 <h2>Prato Principal</h2>
                 <p>Todos os pratos acompanham arroz, feijão e a sobremesa do dia.</p>
                 <div class="pratos">
-                    <div class="boxshadow container_cortes">
+                    <div class="boxshadow">
                         <img src="/bife principal.jpg" alt="" srcset="">
                         <p class="titulo">Carne com batata</p>
                         <p class="preco">R$30,00</p>
+                        <button class="soma">-</button>
+                        <input class="value" id="value" type="number" value="0">
+                        <button class="sub">+</button>
                     </div>
-                    <div class="boxshadow container_cortes">
+                    <div class="boxshadow">
                         <img src="/frango principal.jpg" alt="" srcset="">
-                        <p class="titulo">Carne com batata</p>
+                        <p class="titulo">Coxa de Frango Crocante</p>
                         <p class="preco">R$25,00</p>
+                        <button class="soma">-</button>
+                        <input class="value" id="value" type="number" value="0">
+                        <button class="sub">+</button>
                     </div>
-                    <div class="boxshadow container_cortes">
+                    <div class="boxshadow">
                         <img src="/carne principal.jpg" alt="" srcset="">
                         <!-- add botoes + e - com A Testar -->
-                        <p class="titulo">Carne com batata</p>
+                        <p class="titulo">Carne de Panela</p>
                         <p class="preco">R$22,00</p>
+                        <button class="soma">-</button>
+                        <input class="value" id="value" type="number" value="0">
+                        <button class="sub">+</button>
                     </div>
                 </div>
             </section>
 
-            <section class="boxshadow acompanhamentos">
+            <section class="boxshadow alinhamento">
                 <h2>Acompanhamentos</h2>
                 <p>Porções para uma pessoa</p>
                 <div class="pratos">
-                    <div class="boxshadow container_cortes">
+                    <div class="boxshadow">
                         <img src="/farofa acompanhamentos.jpg" alt="" srcset="">
-                        <p class="titulo">Carne com batata</p>
+                        <p class="titulo">Farofa</p>
                         <p class="preco">R$10,00</p>
+                        <button class="soma">-</button>
+                        <input class="value" id="value" type="number" value="0">
+                        <button class="sub">+</button>
                     </div>
-                    <div class="boxshadow container_cortes">
+                    <div class="boxshadow">
                         <img src="/salada acompanhamentos.jpg" alt="" srcset="">
-                        <p class="titulo">Carne com batata</p>
+                        <p class="titulo">Salada</p>
                         <p class="preco">R$8,00</p>
+                        <button class="soma">-</button>
+                        <input class="value" id="value" type="number" value="0">
+                        <button class="sub">+</button>
                     </div>
-                    <div class="boxshadow container_cortes">
+                    <div class="boxshadow">
                         <img src="/torresmo acompanhamentos.jpg" alt="" srcset="">
-                        <p class="titulo">Carne com batata</p>
+                        <p class="titulo">Torresmo</p>
                         <p class="preco">R$12,00</p>
+                        <button class="soma" id="soama">-</button>
+                        <input class="value" id="value" type="number" value="0">
+                        <button class="sub" id="sub">+</button>
                     </div>
                 </div>
             </section>
 
-            <section class="boxshadow dados">
-                    <h2>Dados Pessoais</h2>
-                <ul>
-                    <!-- Ajustar Inputs e botao -->
-                    <!-- Conferir na origamid-->
-                    <li><input class="dados_input" type="text" name="nome" id="" required></li>
-                    <li><input class="dados_input" type="text" name="telefone" id="" required></li>
-                    <li><input class="dados_input" type="email" name="email" id=""  required></li>
-                </ul>
-            </section>
-            <input class="botao" type="submit" value="Calcular">
+            <footer>
+                <form>
+                    <div class="boxshadow alinhamento">
+                        <h2>Dados Pessoais</h2>
+                        <input class="dados_input" type="text" name="nome" placeholder="Digite o seu nome aqui" required>
+                        <input class="dados_input" type="text" name="telefone" placeholder="Digite o seu telefone aqui"required>
+                        <input class="dados_input" type="email" name="email" placeholder="Digite seu email aqui">
+                    </div>
+                    <button class="botao"  type="submit" id="botao">Calcular</button>
+                </form>
+            </footer>
         </main>
     </div>
 </body>
