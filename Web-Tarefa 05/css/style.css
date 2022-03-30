@@ -94,6 +94,11 @@ h2 {
     color: #fff;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background: #4169E1;
 }
 
 .titulo {
