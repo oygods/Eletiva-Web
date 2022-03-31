@@ -4,10 +4,10 @@ body {
   background: lightgray;
 }
 
-ul {
+/* ul {
   list-style: none;
   padding: 0px;
-}
+} */
 
 img {
   object-fit: cover;
